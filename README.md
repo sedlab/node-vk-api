@@ -11,13 +11,13 @@
 > ES6
 
 ```js
-import { cssToObject } from "node-vk-api";
+import { OAuth, Request } from "node-vk-api";
 ```
 
 > ES5
 
 ```js
-const { cssToObject } = require("node-vk-api");
+const { OAuth, Request } = require("node-vk-api");
 ```
 
 ## Прямая авторизация
