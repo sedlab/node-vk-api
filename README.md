@@ -100,7 +100,10 @@ oauth.login(username, password, undefined, captchaSid, captchaKey)
 ```js
 import { Request } from "node-vk-api";
 
-const TOKEN = ""; // access_token.
+const TOKEN = ""; // Параметр "access_token".
+
+// Помимо токена можно передавать другие поля: 
+// new Request("TOKEN", "5.131", "https://api.vk.com/method/", "VKAndroidApp/8.17-15401 (Android 7.1.2; SDK 25; armeabi-v7a; google G011A; zh; 1280x720)");
 
 const vk = new Request(TOKEN);
 
