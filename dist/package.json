@@ -1,0 +1,19 @@
+{
+  "name": "node-vk-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "module": "index.mjs",
+  "typings": "index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Дмитрий Сединкин",
+    "url": "https://github.com/dsedinkin"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dsedinkin/node-vk-api.git"
+  },
+  "keywords": []
+}
