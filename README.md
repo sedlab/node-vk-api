@@ -100,8 +100,6 @@ oauth.login(username, password, undefined, captchaSid, captchaKey)
 ```js
 import { Request } from "node-vk-api";
 
-const vk = new Request(TOKEN);
-
 const TOKEN = ""; // access_token.
 
 const vk = new Request(TOKEN);
