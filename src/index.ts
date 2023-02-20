@@ -78,7 +78,7 @@ export class Request {
     token: string,
     version = "5.131",
     host = "https://api.vk.com/method/",
-    agent = "VKAndroidApp/5.55-4758 (Android 9; SDK 28; arm64-v8a; NODE-VK-API; ru; 1920x1080)"
+    agent = "VKAndroidApp/8.17-15401 (Android 7.1.2; SDK 25; armeabi-v7a; google G011A; zh; 1280x720)"
   ) {
     this.#ACCESS_TOKEN = token;
     this.#API_VERSION = version;
