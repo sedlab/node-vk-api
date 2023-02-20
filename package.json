@@ -6,7 +6,7 @@
         "copy": "run-script-os",
         "copy:win32": "Xcopy .\\static .\\dist /E /H /C /I",
         "copy:linux": "cp -r static/* ./dist",
-        "build": "yarn prebuild && rollup --bundleConfigAsCjs --config rollup.config.ts --configPlugin @rollup/plugin-typescript && yarn copy",
+        "build": "yarn prebuild && rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript && yarn copy",
         "start": "ts-node --project tsconfig.node.json -r tsconfig-paths/register index.ts",
         "release": "git subtree push --prefix dist https://github.com/dsedinkin/node-vk-api release"
     },
@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "@types/node-fetch": "^2.6.2",
-        "node-fetch": "2.6.9"
+        "node-fetch": "2.6.9",
+        "node-vk-api": "dsedinkin/node-vk-api#latest"
     }
 }

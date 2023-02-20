@@ -1,4 +1,4 @@
-import { Request } from "./dist";
+import { Request } from "node-vk-api";
 
 const TOKEN = ""; // access_token.
 
