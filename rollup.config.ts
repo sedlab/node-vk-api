@@ -32,6 +32,6 @@ const config: RollupOptions[] = [
       format: "es",
     },
   }
-]
+];
 
 export default config;
