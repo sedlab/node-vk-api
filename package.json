@@ -24,6 +24,8 @@
     "typescript": "latest"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "node-fetch": "2.6.9",
     "node-vk-api": "dsedinkin/node-vk-api#latest"
   }
 }
