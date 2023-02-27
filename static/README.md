@@ -4,7 +4,7 @@
 
 ## Установка
 
-`npm i -s dsedinkin/node-vk-api#latest` или `yarn add dsedinkin/node-vk-api#latest`
+`npm i -s sedlab/node-vk-api#latest` или `yarn add sedlab/node-vk-api#latest`
 
 ## Использование
 

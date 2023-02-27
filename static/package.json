@@ -1,6 +1,6 @@
 {
   "name": "node-vk-api",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "module": "index.mjs",
@@ -13,7 +13,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git@github.com:dsedinkin/node-vk-api.git"
+    "url": "git@github.com:sedlab/node-vk-api.git"
   },
   "keywords": [],
   "peerDependencies": {
