@@ -1,6 +1,6 @@
 {
   "name": "node-vk-api",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "module": "index.mjs",
@@ -16,8 +16,10 @@
     "url": "git@github.com:sedlab/node-vk-api.git"
   },
   "keywords": [],
-  "peerDependencies": {
-    "@types/node-fetch": "^2.6.2",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2"
+  },
+  "dependencies": {
     "node-fetch": "2.6.9"
   }
 }
